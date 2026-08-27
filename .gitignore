@@ -1,0 +1,69 @@
+# Dependencies
+/node_modules
+.pnp
+.pnp.js
+
+# Build output
+/dist
+/dist-ssr
+/build
+*.local
+
+# Vite
+.vite
+.vite/deps
+.vite/deps_temp
+.vite/deps_old
+
+# Logs
+/logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Testing
+/coverage
+.nyc_output
+*.lcov
+
+# Caches
+.cache
+.eslintcache
+.vite/cache
+.parcel-cache
+
+# TypeScript
+*.tsbuildinfo
+
+# Editors and IDEs
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Misc
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
